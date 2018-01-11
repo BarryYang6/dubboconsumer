@@ -10,6 +10,6 @@ public class Consumer {
         context.start();
         System.out.println("服务订阅成功");
         DubboProvider dubboProvider = (DubboProvider) context.getBean("dubboProvider");
-        System.out.println(dubboProvider.sayHello("Barry"));
+        System.out.println(dubboProvider.sayHello("Barry Yang"));
     }
 }
